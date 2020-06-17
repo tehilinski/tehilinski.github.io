@@ -8,9 +8,9 @@
 	<title>Tom Hilinski - GitHub Index</title>
 	
 	<style>
-		body { background-color: white; }
-		h1 { color: #4D4D4D; }
-		table { border: 0; margin-left: 20%; border-collapse: collapse; }
+		body { background-color: white; margin-left: 15%; margin-right: 15%; }
+		h1 { color: #4D4D4D; text-align: center; }
+		table { border: 0; border-collapse: collapse; }
 		tr { border-bottom: 4pt solid lightblue; }
 		td { text-align: left; vertical-align: middle; padding: 10pt; }
 		a { text-decoration: none; }
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<h1 style="text-align: center">Tom Hilinski - GitHub Index</h1>
+<h1>Tom Hilinski - GitHub Index</h1>
 
 <table>
 
@@ -31,6 +31,11 @@ each of which have different lifetimes.
 Includes a simple model-view-controller example.
 </td>
 <td>
+<pre><code>struct Doc { ... };
+struct View1 { rcpointer* doc; ... };
+struct View2 { rcpointer* doc; ... };
+</code>
+</pre>
 </td>
 </tr>
 
@@ -40,7 +45,7 @@ Includes a simple model-view-controller example.
 draws a Walter and Lieth (1960) diagram, used to visually summarize
 the annual mean climate data for a location.
 </td>
-<td width="50%">
+<td width="50%" align="center">
 <img src="https://tehilinski.github.io/WLDiagram/WLDiagram-Annotated.svg" 
      alt="Annotated WLDiagram"
      width="50%" />
@@ -55,7 +60,7 @@ and communicating with MPI processes. The use case for this framework is multipl
 tasks which can run independently and concurrently, and whose state needs to be
 tracked, and that can write output to a common log.
 </td>
-<td width="50%">
+<td width="50%" align="center">
 <img src="https://tehilinski.github.io/MTBMPI/doc/MTBMPI_Overview.svg" 
      alt="MTBMPI application schematic"
      width="50%" />
