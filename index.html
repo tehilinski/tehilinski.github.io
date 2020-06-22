@@ -15,6 +15,14 @@
 		tr { border-bottom: 4pt solid lightblue; }
 		td { text-align: left; vertical-align: middle; padding: 10pt; }
 		a { text-decoration: none; }
+		@media screen only and (orientation:landscape)
+		{
+		    body { margin-left: 15%; margin-right: 15%; }
+		}
+		@media screen only and (orientation:portrait) and (min-aspect-ratio: 0.7)
+		{
+		    body { margin-left: 5%; margin-right: 5%; }
+		}
 	</style>
 </head>
 <body>
