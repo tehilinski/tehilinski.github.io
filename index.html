@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta name="google-site-verification" content="tPrD7qgVfy7F02-oUgdHg1lXO9RXHXxTXm3ySuKtD_s" />
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,maximum-scale=2">
 	<title>Tom Hilinski - GitHub Index</title>
-	
+
 	<style>
 		body { background-color: white; }
 		h1 { color: #4D4D4D; text-align: center; }
@@ -15,6 +14,7 @@
 		tr { border-bottom: 4pt solid lightblue; }
 		td { text-align: left; vertical-align: middle; padding: 10pt; }
 		a { text-decoration: none; }
+		/* set margins according to orientation */
 		@media (max-aspect-ratio: 85/100)
 		{
 		    body { margin-left: 3%; margin-right: 3%; }
@@ -33,6 +33,47 @@
 
 <tr>
 <td>
+<a href="https://tehilinski.github.io/MTBMPI/" ><b>MTBMPI: Master-Task-Blackboard MPI Framework</b></a>
+A C++ framework that implements a Master-Task-Blackboard pattern for controlling
+and communicating with MPI processes. The use case for this framework is multiple
+tasks which can run independently and concurrently, and whose state needs to be
+tracked, and that can write output to a common log.
+</td>
+<td width="50%" align="center">
+<img src="https://tehilinski.github.io/MTBMPI/doc/MTBMPI_Overview.svg"
+     alt="MTBMPI application schematic"
+     width="50%" />
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://tehilinski.github.io/Random" ><b>Random</b></a>
+is a C++ class implementing the zufall random generator functions 
+by W. P. Petersen (1994).
+</td>
+<td width="50%" align="center">
+<img src="https://tehilinski.github.io/Random/DensityGraphs.png"
+     alt="Graphs of Random data."
+     width="50%" />
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://tehilinski.github.io/WLDiagram/" ><b>WLDiagram R class</b></a>
+draws a Walter and Lieth (1960) diagram, used to visually summarize
+the annual mean climate data for a location.
+</td>
+<td width="50%" align="center">
+<img src="https://tehilinski.github.io/WLDiagram/WLDiagram-Annotated.svg"
+     alt="Annotated WLDiagram"
+     width="50%" />
+</td>
+</tr>
+
+<tr>
+<td>
 <a href="https://tehilinski.github.io/rcpointer" ><b>rcpointer</b></a>
 implements a reference-counted shared pointer in C using glib types.
 This allows sharing an allocated object among multiple structs,
@@ -45,34 +86,6 @@ struct View1 { rcpointer* doc; ... };
 struct View2 { rcpointer* doc; ... };
 </code>
 </pre>
-</td>
-</tr>
-
-<tr>
-<td>
-<a href="https://tehilinski.github.io/WLDiagram/" ><b>WLDiagram R class</b></a>
-draws a Walter and Lieth (1960) diagram, used to visually summarize
-the annual mean climate data for a location.
-</td>
-<td width="50%" align="center">
-<img src="https://tehilinski.github.io/WLDiagram/WLDiagram-Annotated.svg" 
-     alt="Annotated WLDiagram"
-     width="50%" />
-</td>
-</tr>
-
-<tr>
-<td>
-<a href="https://tehilinski.github.io/MTBMPI/" ><b>MTBMPI: Master-Task-Blackboard MPI Framework</b></a>
-A C++ framework that implements a Master-Task-Blackboard pattern for controlling
-and communicating with MPI processes. The use case for this framework is multiple
-tasks which can run independently and concurrently, and whose state needs to be
-tracked, and that can write output to a common log.
-</td>
-<td width="50%" align="center">
-<img src="https://tehilinski.github.io/MTBMPI/doc/MTBMPI_Overview.svg" 
-     alt="MTBMPI application schematic"
-     width="50%" />
 </td>
 </tr>
 
